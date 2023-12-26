@@ -7,21 +7,24 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* Remove animation property for .App-logo */
+/*@media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+}*/
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('./Assets/5570215.jpg'); /* Đường dẫn đến hình nền */
+  background-size: cover; /* Đảm bảo hình nền bao phủ toàn bộ header */
+  background-position: center; /* Chính giữa header */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #ffffff;
 }
 
 .App-link {

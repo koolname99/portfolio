@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App-menu {
+  position: absolute;
+  top: 10px; /* Khoảng cách từ trên xuống */
+  right: 20px; /* Khoảng cách từ phải sang trái */
+}
+
+.App-menu a {
+  color: white;
+  margin-left: 15px; /* Khoảng cách giữa các mục menu */
+  text-decoration: none;
+  font-weight: bold;
+}
