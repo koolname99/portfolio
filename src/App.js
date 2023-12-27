@@ -1,24 +1,30 @@
-import logo from './Assets/avatar.jpg';
+import HomePage from "./pages/Home";
+import AboutPage from "./pages/About";
+import ProjectPage from "./pages/Project";
+import ResumePage from "./pages/Resume";
+
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from 'react-router-dom';
 import './App.css';
 
 function App() {
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-      <div className="App-menu">
-          <a href="#">Home</a>
-          <a href="#">Projects</a>
-          <a href="#">Resume</a>
-        </div>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hi There! 👋
-        </p>
-        <p>
-          I'm Long Nguyen
-        </p>
-      </header>
-    </div>
+    <div className="max-w-md w-full space-y-8">
+        <BrowserRouter>
+          
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/project" element={<ProjectPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/resume" element={<ResumePage />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
   );
 }
 

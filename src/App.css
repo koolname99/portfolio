@@ -7,24 +7,21 @@
   pointer-events: none;
 }
 
-/* Remove animation property for .App-logo */
-/*@media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}*/
+}
 
 .App-header {
-  background-image: url('./Assets/5570215.jpg'); /* Đường dẫn đến hình nền */
-  background-size: cover; /* Đảm bảo hình nền bao phủ toàn bộ header */
-  background-position: center; /* Chính giữa header */
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #ffffff;
+  color: white;
 }
 
 .App-link {
@@ -36,6 +33,55 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
 }
+
+/*menu bar*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem
+}
+
+.nav li.active {
+  background-color: #555;
+}
+
+.av li:hover {
+  background-color: #777;
+}
+
+
