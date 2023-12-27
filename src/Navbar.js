@@ -1,22 +1,70 @@
-import { Link } from "react-router-dom"
-export default function Navbar() {
-    return <nav className="nav">
-        <Link to="/" className="site-title">LN</Link>
-        <ul>
-            <li className="active">
-                <Link to="/">Home</Link>
-                </li>
-                <li>
-                <Link to="/about">About</Link>
-                </li>
-                <li>
-                <Link to="/project">Project</Link>
-                </li>
-                <li>
-                <Link to="/resume">Resume</Link>
-                </li>
-        </ul>
+import React, { useState } from 'react';
 
-    </nav>
+import { Link } from 'react-router-dom';
+import './Navbar.css';
+
+function Navbar() {
+  const [click, setClick] = useState(false);
+
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+
+
+
+  return (
+    <>
+      <nav className='navbar'>
+        <div className='navbar-container'>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            LN
+            <i class='fab fa-typo3' />
+          </Link>
+          <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          </div>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className='nav-item'>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/about'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                About
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/project'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Projects
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/resume'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Resume
+              </Link>
+            </li>
+
+            
+          </ul>
+          
+        </div>
+      </nav>
+    </>
+  );
 }
 
+export default Navbar;

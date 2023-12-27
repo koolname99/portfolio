@@ -5,6 +5,7 @@ import logo from './../Assets/avatar.jpg';
 import './../App.css';
 import Tilt from "react-parallax-tilt";
 import Navbar from "./../Navbar";
+import Footer from './../Footer';
 
 function App() {
 
@@ -60,6 +61,7 @@ function App() {
                 </p>
 
             </div>
+            <Footer />
         </div>
     );
 }
