@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Footer from './../Footer';
 import './../App.css';
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram, } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import logo from './../Assets/profile.JPG';
 
@@ -13,16 +13,18 @@ function Home2() {
             <Container >
                 <Row>            
                     <Col md={7} className="home-about-description">
+
                         <h1 style={{ fontSize: "2.em" }}>
                             LET ME <span className="green"> INTRODUCE </span> MYSELF
                         </h1>
 
                         <Col md={4} className="myAvatar">
-                        <img src={logo} alt="logo" style={{ maxWidth: '20%', height: 'auto' }} />
-                    </Col>
+    <img src={logo} alt="logo" style={{ maxWidth: '15%', height: 'auto', borderRadius: '50%' }} />
+</Col>
 
 
-                        <p className="home-about-body">
+
+                        <p className="home-about-body-1">
                             I love software and fell in love with programming since I was a kid
                             <br />
                             <br />I am fluent in
@@ -56,13 +58,13 @@ function Home2() {
                             </i>
                         </p>
                     </Col>
-
+                    
                 </Row>
                 <Row>
                     <Col md={12} className="home-about-social">
                         <h1>FIND ME ON</h1>
                         <p>
-                            Feel free to <span className="green" >connect </span>with me
+                            Feel free to <span className="" >connect </span>with me
                         </p>
                         <ul className="home-about-social-links">
                             <li className="social-icons">
@@ -83,7 +85,17 @@ function Home2() {
                                     <AiFillGithub />
 
                                 </a>
-                            </li>
+                             
+                <a
+                  href="https://www.instagram.com"
+                  style={{ color: "black", marginRight: "10px" }}
+                  target="_blank"
+                  rel="noreferrer"
+
+                >
+                  <AiFillInstagram />
+                       </a>
+                       </li>
                         </ul>
                     </Col>
                 </Row>

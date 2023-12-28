@@ -7,12 +7,13 @@ import Navbar from "./../Navbar";
 import Type from './../Type';
 import Home2 from "./Home2";
 
-function App() {
+function Home() {
 
     return (
         <section>
+            <Navbar />
             <Container fluid className="home-section" id="home">
-                <Navbar />
+                
                 <Container className="home-content">
                     <Row>
                         <Col md={7} className="home-header">
@@ -53,4 +54,4 @@ function App() {
     );
 }
 
-export default App;
+export default Home;

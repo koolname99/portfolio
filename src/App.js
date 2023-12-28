@@ -1,5 +1,5 @@
 import HomePage from "./pages/Home";
-import AboutPage from "./pages/About";
+import AboutPage from "./pages/About/About";
 import ProjectPage from "./pages/Project";
 import ResumePage from "./pages/Resume";
 
