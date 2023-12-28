@@ -1,68 +1,57 @@
-// App.js
 import React from 'react';
-//import { Container, Row, Col } from 'react-bootstrap';
-import logo from './../Assets/avatar.jpg';
+import { Container, Row, Col } from 'react-bootstrap';
+import homeLogo from "./../Assets/home-svg.jpg";
 import './../App.css';
-import Tilt from "react-parallax-tilt";
+
 import Navbar from "./../Navbar";
-import Footer from './../Footer';
+import Type from './../Type';
+import Particle from './../Particle';
+import Home2 from "./Home2";
 
 function App() {
 
     return (
-        
-        <div className="App">
-            <Navbar />
-            <div className="container">
-               
-
-                <Tilt>
-                    <img src={logo} className="App-logo" alt="logo"  />
-                </Tilt>
+        <section>
+            <Container fluid className="home-section" id="home">
+                <Navbar />
+                <Particle />
+                <Container className="home-content">
+                    <Row>
+                        <Col md={7} className="home-header">
 
 
-                <h1 >
+                        <div style={{ padding: 50, textAlign: "center"}}>
+                                
+                                </div>
 
-                    Hi There! 👋
-                    <br /> I'm Long Nguyen
-                </h1>
-                {/* Description about the person */}
-                <p className="home-about-body">
-                    I love software and fell in love with programming since I was a kid
-                    <br />
-                    <br />I am fluent in classics like
-                    <i>
-                        <b className="purple"> Java, Javascript, and Python. </b>
-                    </i>
-                    <br />
-                    <br />
-                    My field of interest is building new
-                    <i>
-                        <b className="purple"> Web Technologies and Products </b>
-                    </i>
-                    and also in areas related to{" "}
-                    <b className="purple">
-                        Cybersecurity.
-                    </b>
-                    <br />
-                    <br />
-                    Whenever possible, I also apply my passion for developing products
-                    with <b className="purple">Node.js</b> and
-                    <i>
-                        <b className="purple">
-                            {" "}
-                            Modern Javascript Library and Frameworks
-                        </b>
-                    </i>
-                    &nbsp; like
-                    <i>
-                        <b className="purple"> React.js and Next.js</b>
-                    </i>
-                </p>
 
-            </div>
-            <Footer />
-        </div>
+                                <h1 style={{ paddingBottom: 15, color: 'black' }} className="heading">
+                                    Hi There! {" "}
+                                    <span className="wave" role="img" aria-labelledby='wave'>
+                                        👋
+                                    </span>
+                                </h1>
+
+                                <h1 className="heading-name" style={{ color: 'black'}}>
+                                    I'M
+                                    <strong className="green"> Long Nguyen</strong>.
+                                </h1>
+
+                                <div style={{ padding: 50, textAlign: "left"}}>
+                                <Type />
+                                </div>
+                                
+
+
+
+                        
+                        </Col>
+                        
+                    </Row>
+                </Container>
+            </Container>
+            <Home2 />
+        </section>
     );
 }
 
