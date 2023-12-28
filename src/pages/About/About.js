@@ -20,15 +20,15 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Welcome <strong className="purple">!</strong>
             </h1>
             <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Long Nguyen </span>
             from <span className="purple"> Dallas, Texas.</span>
             <br />
-            I am currently pursuing Master Degree in Computer Science with emphasis on Cybersecurity at University of Texas at Dallas
+            I am currently pursuing a Master's Degree in Computer Science with an emphasis on Cybersecurity at the University of Texas at Dallas.
             <br />
-            I have completed my Bachelor Degree in Computer Science at same university.
+            I have already completed my Bachelor's Degree in Computer Science at the same university."
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
