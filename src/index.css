@@ -1,25 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Raleway", serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-.App-menu {
-  position: absolute;
-  top: 10px; /* Khoảng cách từ trên xuống */
-  right: 20px; /* Khoảng cách từ phải sang trái */
-}
-
-.App-menu a {
-  color: white;
-  margin-left: 15px; /* Khoảng cách giữa các mục menu */
-  text-decoration: none;
-  font-weight: bold;
+  background-image: linear-gradient(to left, rgb(220, 220, 220), rgb(220, 220, 220));
 }
