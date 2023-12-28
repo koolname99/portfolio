@@ -4,22 +4,23 @@ import Footer from './../Footer';
 import './../App.css';
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import Tilt from "react-parallax-tilt";
-import logo from './../Assets/avatar.jpg';
+import logo from './../Assets/profile.JPG';
 
 function Home2() {
 
     return (
         <Container fluid className="home-about-section" id="about">
             <Container >
-                <Row>
+                <Row>            
                     <Col md={7} className="home-about-description">
-                        <h1 style={{ fontSize: "2.6em" }}>
+                        <h1 style={{ fontSize: "2.em" }}>
                             LET ME <span className="green"> INTRODUCE </span> MYSELF
                         </h1>
-                        <Tilt>
-            <img src={logo} className="App-logo" alt="logo" />
-            </Tilt>
+
+                        <Col md={4} className="myAvatar">
+                        <img src={logo} alt="logo" style={{ maxWidth: '20%', height: 'auto' }} />
+                    </Col>
+
 
                         <p className="home-about-body">
                             I love software and fell in love with programming since I was a kid
@@ -55,9 +56,7 @@ function Home2() {
                             </i>
                         </p>
                     </Col>
-                    <Col md={4} className="myAvtar">
-            
-          </Col>
+
                 </Row>
                 <Row>
                     <Col md={12} className="home-about-social">
@@ -67,19 +66,19 @@ function Home2() {
                         </p>
                         <ul className="home-about-social-links">
                             <li className="social-icons">
-                            <a href="https://www.linkedin.com/in/long-nguyen-165244288/"
-                                    style={{ color: "black" , marginRight: "15px"}}
+                                <a href="https://www.linkedin.com/in/long-nguyen-165244288/"
+                                    style={{ color: "black", marginRight: "15px" }}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    
+
                                 >
                                     <FaLinkedinIn />
                                 </a>
                                 <a href="https://github.com/koolname99"
-                                    style={{ color: "black" , marginRight: "10px"}}
+                                    style={{ color: "black", marginRight: "10px" }}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    
+
                                 >
                                     <AiFillGithub />
 

@@ -16,9 +16,9 @@ function Footer() {
                             <i class='fab fa-typo3' />
                         </Link>
                     </div>
-                    <h3 class='website-rights'>
+                    <p class='website-rights'>
                         Designed and Developed by Long Nguyen
-                        <br/> Copyright © 2023 LN</h3>
+                        <br/> Copyright © 2023 LN</p>
                     
                 </div>
             </section>

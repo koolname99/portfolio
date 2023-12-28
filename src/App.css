@@ -245,6 +245,7 @@ button:focus {
     display: none !important;
   }
 }
+
 .home-about-section {
   position: relative;
   
@@ -263,7 +264,7 @@ button:focus {
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;
-  text-align: left;
+  text-align: center;
 }
 .home-about-social {
   text-align: center !important;
@@ -281,4 +282,10 @@ button:focus {
 
 .icon-colour {
   color: #000000 !important;
+}
+
+.myAvatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
