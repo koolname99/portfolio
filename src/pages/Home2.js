@@ -19,7 +19,7 @@ function Home2() {
                         </h1>
 
                         <Col md={4} className="myAvatar">
-    <img src={logo} alt="logo" style={{ maxWidth: '15%', height: 'auto', borderRadius: '50%' }} />
+    <img src={logo} alt="logo" style={{ width: '168px', height: '168px', borderRadius: '50%' }} />
 </Col>
 
 
@@ -87,7 +87,7 @@ function Home2() {
                                 </a>
                              
                 <a
-                  href="https://www.instagram.com"
+                  href="https://www.instagram.com/codewithlong/"
                   style={{ color: "black", marginRight: "10px" }}
                   target="_blank"
                   rel="noreferrer"
