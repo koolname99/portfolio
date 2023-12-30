@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import homeLogo from "./../Assets/home-svg.jpg";
+
 import './../App.css';
 
 import Navbar from "./../Navbar";
@@ -11,9 +11,9 @@ function Home() {
 
     return (
         <section>
-            <Navbar />
+             <Navbar />
             <Container fluid className="home-section" id="home">
-                
+       
                 <Container className="home-content">
                     <Row>
                         <Col md={7} className="home-header">

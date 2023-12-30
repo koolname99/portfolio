@@ -75,7 +75,7 @@
     display: none;
   }
   
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 932px) {
     .NavbarItems {
       position: relative;
     }
@@ -87,7 +87,6 @@
       height: 90vh;
       position: absolute;
       top: 80px;
-      left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
     }
