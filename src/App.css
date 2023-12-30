@@ -204,6 +204,8 @@ button:focus {
   background-image: var(--image-gradient), url(./Assets/home-svg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
 
 }
 .home-content {
