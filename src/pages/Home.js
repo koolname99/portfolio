@@ -32,7 +32,7 @@ function Home() {
                                 </h1>
 
                                 <h1 className="heading-name" style={{ color: 'white'}}>
-                                    I'M
+                                    I'm
                                     <strong className="green"> Long Nguyen</strong>.
                                 </h1>
 
