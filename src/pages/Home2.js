@@ -6,6 +6,7 @@ import { AiFillGithub, AiFillInstagram, } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import logo from './../Assets/profile.JPG';
 
+
 function Home2() {
 
     return (
@@ -24,7 +25,7 @@ function Home2() {
 
 
 
-                        <p className="home-about-body-1">
+                        <p style={{ color: "black", fontSize: "18px" }}>
                             I love software and fell in love with programming since I was a kid
                             <br />
                             <br />I am fluent in

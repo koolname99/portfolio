@@ -5,6 +5,8 @@ import Techstack from "./Techstack";
 import Toolstack from "./Toolstack";
 import Footer from './../../Footer';
 import './../../App.css';
+import { BsBackpack } from "react-icons/bs";
+import { BsController } from "react-icons/bs";
 function About() {
     return (
       <Container fluid className="about-section">
@@ -22,7 +24,7 @@ function About() {
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Welcome <strong className="purple">!</strong>
             </h1>
-            <p style={{ textAlign: "justify" }}>
+            <p style={{ textAlign: "justify", fontSize: "18px" }}>
             Hi Everyone, I am <span className="purple">Long Nguyen </span>
             from <span className="purple"> Dallas, Texas.</span>
             <br />
@@ -31,27 +33,29 @@ function About() {
             I have already completed my Bachelor's Degree in Computer Science at the same university."
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, some other activities that I love to do are:
           </p>
-          <ul>
-            <li className="about-activity">
-               Playing Games
-            </li>
-
-            <li className="about-activity">
-              Travelling
-            </li>
+          <ul style={{fontSize: "18px"}}>
+           
+            
+              Playing Games <BsController />
+            
+              <br />
+            
+              
+              Travelling <BsBackpack />
+        
           </ul>
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgb(255 10 10)", fontSize: "18px" }}>
             "Software are art!"{" "}
           </p>
-          <footer className="blockquote-footer">Long</footer>
+          <p style={{fontSize: "18px"}}>Long</p>
             </Col>
             </Row>
         </Container>
-        <p>My tech stack</p>
+        <p style={{ textAlign: "justify", fontSize: "18px" }}>My tech stack</p>
         <Techstack />
-        <p>My tool stack</p>
+        <p style={{ textAlign: "justify", fontSize: "18px" }}>My tool stack</p>
         <Toolstack />
         <Footer />
       </Container>
