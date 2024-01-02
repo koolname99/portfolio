@@ -22,7 +22,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Welcome <strong className="purple">!</strong>
+              Welcome!
             </h1>
             <p style={{ textAlign: "justify", fontSize: "18px" }}>
             Hi Everyone, I am <span className="purple">Long Nguyen </span>
@@ -53,9 +53,9 @@ function About() {
             </Col>
             </Row>
         </Container>
-        <p style={{ textAlign: "justify", fontSize: "18px" }}>My tech stack</p>
+        <p style={{ textAlign: "center", fontSize: "1.2em", paddingBottom: "20px", fontWeight: "bold" }}>My tech stack</p>
         <Techstack />
-        <p style={{ textAlign: "justify", fontSize: "18px" }}>My tool stack</p>
+        <p style={{ textAlign: "center", fontSize: "1.2em", paddingBottom: "20px", fontWeight: "bold" }}>My tool stack</p>
         <Toolstack />
         <Footer />
       </Container>
