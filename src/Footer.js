@@ -18,7 +18,7 @@ function Footer() {
                     </div>
                     <p class='website-rights'>
                         Designed and Developed by Long Nguyen
-                        <br/> Copyright © 2023 LN</p>
+                        <br/> Copyright © 2024 LN</p>
                     
                 </div>
             </section>
