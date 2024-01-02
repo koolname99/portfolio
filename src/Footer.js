@@ -1,9 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-//import { Container, Row, Col } from 'react-bootstrap';
+
 
 function Footer() {
     return (
@@ -13,7 +11,6 @@ function Footer() {
                     <div class='footer-logo'>
                         <Link to='/' className='social-logo'>
                             LN
-                            <i class='fab fa-typo3' />
                         </Link>
                     </div>
                     <p class='website-rights'>

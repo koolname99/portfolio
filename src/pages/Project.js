@@ -27,7 +27,7 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-
+                  isBlog={true}
 
                 title="Online Tutoring Web Application"
                 description="It was developed as part of the UT Dallas senior design project. A full-stack web application for online tutoring services. I worked with five other engineering students to create this web app. Front end using React, back end using Nodejs and MySQL for database. The app allows tutors to have a calendar with all appointments, edit their tutor profiles, and cancel any upcoming appointments. Student accounts can book appointments, add favorite tutors, and edit their profiles."
