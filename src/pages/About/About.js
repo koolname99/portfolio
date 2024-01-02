@@ -28,7 +28,7 @@ function About() {
             Hi Everyone, I am <span className="purple">Long Nguyen </span>
             from <span className="purple"> Dallas, Texas.</span>
             <br />
-            I am currently pursuing a Master's Degree in Computer Science with an emphasis on Cybersecurity at the University of Texas at Dallas.
+            I am currently pursuing a <span className="purple">Master's Degree</span> in Computer Science with an emphasis on <span className="purple">Cybersecurity</span> at the <span className="purple">University of Texas at Dallas.</span>
             <br />
             I have already completed my Bachelor's Degree in Computer Science at the same university."
             <br />
