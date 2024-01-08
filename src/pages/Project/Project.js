@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Navbar from "./../../Navbar";
-import Footer from './../../Footer';
+
 
 function Projects() {
   return (
@@ -33,7 +33,7 @@ function Projects() {
                   isBlog={true}
 
                 title="Online Tutoring Web Application"
-                description="It was developed as part of the UT Dallas senior design project. A full-stack web application for online tutoring services. I worked with five other engineering students to create this web app. Front end using React, back end using Nodejs and MySQL for database. The app allows tutors to have a calendar with all appointments, edit their tutor profiles, and cancel any upcoming appointments. Student accounts can book appointments, add favorite tutors, and edit their profiles."
+                description="It was developed as part of the UT Dallas senior design project: a full-stack web application for an online tutoring service. I collaborated with five other engineering students to create this web app, utilizing React for the front end, Node.js for the back end, and MySQL for the database. The app enables tutors to manage their appointments through a calendar, edit their tutor profiles, and cancel any upcoming appointments. Student accounts can book appointments, add favorite tutors, and edit their profiles. The web app also supports cookies to maintain user login, and two-factor authentication adds an extra layer of security for platform users. Lastly, it supports email reminders for upcoming appointments for both tutor and student accounts."
                 ghLink="https://github.com/kaylambaker/online-tutoring-68"
               />
             </Col>
@@ -59,9 +59,6 @@ function Projects() {
       </Row>
 
     </Container>
-   
-
-
   );
 }
 
