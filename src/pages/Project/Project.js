@@ -1,15 +1,18 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Navbar from "./../Navbar";
-import Footer from './../Footer';
+import Navbar from "./../../Navbar";
+import Footer from './../../Footer';
 
 function Projects() {
   return (
-    <Container fluid className="about-section">
-<Navbar />
-        <Container>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+    <Container fluid className="project-section">
+      <Navbar />
+
+
+        
+      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col
             md={7}
             style={{
@@ -17,7 +20,7 @@ function Projects() {
               paddingTop: "30px",
               paddingBottom: "50px",
             }}
-          >
+          ></Col>
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               My Lastest <strong className="purple">Work </strong>
             </h1>
@@ -52,31 +55,17 @@ function Projects() {
                 ghLink="https://devpost.com/software/diaryai?fbclid=IwAR1PpJIlSOl4FSVH97oVLnxeQB-cB4UngkyFF2LtvG70Lvv1kDPosx57HfE"
               />
             </Col>
+            
+      </Row>
+    
 
-
-
-
-
-            </Col>
-          </Row>
-
-
-
-
-
-
-
-
-
-
-        </Container>
-
-
-
-
-
-        <Footer />
+      <Footer />
+  
+   
     </Container>
+   
+
+
   );
 }
 
