@@ -1,6 +1,6 @@
-import HomePage from "./pages/Home";
+import HomePage from "./pages/Home/Home";
 import AboutPage from "./pages/About/About";
-import ProjectPage from "./pages/Project";
+import ProjectPage from "./pages/Project/Project";
 import ResumePage from "./pages/Resume";
 
 import {

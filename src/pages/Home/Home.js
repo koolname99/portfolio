@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import './../App.css';
+import './../../App.css';
 
-import Navbar from "./../Navbar";
-import Type from './../Type';
+import Navbar from "../../Navbar";
+import Type from '../Type';
 import Home2 from "./Home2";
 
 function Home() {

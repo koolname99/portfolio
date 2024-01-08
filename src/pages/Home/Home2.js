@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Footer from './../Footer';
-import './../App.css';
+import Footer from '../../Footer';
+import './../../App.css';
 import { AiFillGithub, AiFillInstagram, } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import logo from './../Assets/profile.JPG';
+import logo from './../../Assets/profile.JPG';
 
 
 function Home2() {
