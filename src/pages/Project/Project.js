@@ -57,11 +57,7 @@ function Projects() {
             </Col>
             
       </Row>
-    
 
-      <Footer />
-  
-   
     </Container>
    
 
