@@ -56,7 +56,7 @@ function About() {
         <Techstack />
         <p style={{ textAlign: "center", fontSize: "1.2em", paddingBottom: "20px", fontWeight: "bold" }}>My tool stack</p>
         <Toolstack />
-        <Footer />
+    
       </Container>
     );
   }

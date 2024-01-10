@@ -237,10 +237,12 @@ button:focus {
 }
 .social-icons {
   display: inline-block !important;
+  
   padding-right: 15px;
   padding-left: 15px;
 }
 .social-icons a {
+  justify-content: center !important;
   font-size: 50px; /* Adjust the value to set the desired size */
 }
 
