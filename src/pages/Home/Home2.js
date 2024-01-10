@@ -35,7 +35,7 @@ function Home2() {
                             <br />
                             <br />
                             My field of interest is building new
-                            &nbsp;
+            
                             <i>
                                 <b className="green">Web Technologies and Products </b> and
                                 also in areas related to{" "}
@@ -50,12 +50,12 @@ function Home2() {
                             <i>
                                 <b className="green">
                                     {" "}
-                                    Modern Javascript Library and Frameworks
+                                    Modern Javascript Library and Framework
                                 </b>
                             </i>
                             &nbsp; like
                             <i>
-                                <b className="green"> React.js and Next.js</b>
+                                <b className="green"> React.js</b>
                             </i>
                         </p>
                     </Col>
@@ -100,7 +100,6 @@ function Home2() {
                         </ul>
                     </Col>
                 </Row>
-                <Footer />
             </Container>
         </Container>
 
