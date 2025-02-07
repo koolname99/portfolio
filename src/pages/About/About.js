@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Navbar from "./../../Navbar";
 import Techstack from "./Techstack";
 import Toolstack from "./Toolstack";
-import Footer from './../../Footer';
+//import Footer from './../../Footer';
 import './../../App.css';
 import { BsBackpack } from "react-icons/bs";
 import { BsController } from "react-icons/bs";
