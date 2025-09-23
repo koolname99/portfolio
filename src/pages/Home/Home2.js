@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import './../../App.css';
 import { AiFillGithub, AiFillInstagram, } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import logo from './../../Assets/profile.jpg';
+import logo from './../../Assets/main.jpg';
 
 
 function Home2() {
