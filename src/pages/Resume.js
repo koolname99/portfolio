@@ -1,11 +1,19 @@
 import Navbar from "./../Navbar";
-//import Footer from './../Footer';
+
 function Resume() {
-    return (
-      <div className="App">
-        <Navbar />
-        <p>Cooming soon</p>
+  return (
+    <div className="App">
+      <Navbar />
+      <div className="flex justify-center p-4">
+        <embed
+          src="/resume.pdf"
+          type="application/pdf"
+          width="80%"
+          height="800px"
+        />
       </div>
-    );
-  }
-  export default Resume;
+    </div>
+  );
+}
+
+export default Resume;

@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import './../../App.css';
 import { AiFillGithub, AiFillInstagram, } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import logo from './../../Assets/profile.JPG';
+import logo from './../../Assets/profile.jpg';
 
 
 function Home2() {
@@ -94,7 +94,7 @@ function Home2() {
                   rel="noreferrer"
 
                 >
-                  <AiFillInstagram />
+                  
                        </a>
                        </li>
                         </ul>
