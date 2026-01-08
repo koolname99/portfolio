@@ -27,7 +27,15 @@ function Projects() {
         <p style={{ color: "black", fontSize: "18px" }}>
           Here are projects I've worked on.
         </p>
-
+          <Col md={4} className="project-card">
+          <ProjectCard
+            title="PF Tracker"
+            description="It was developed as part of HackUTD 2025 with my talented team members from UT Dallas. PF Tracker is a personal finance management web application
+featuring Category-Based Budgeting, Subscription Management and AI Financial Assistant
+"
+            ghLink="https://devpost.com/software/pf-tracker"
+          />
+        </Col>
         <Col md={4} className="project-card">
           <ProjectCard
             title="Easy CSV"
