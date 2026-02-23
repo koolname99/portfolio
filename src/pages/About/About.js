@@ -35,13 +35,6 @@ function About() {
             Apart from coding, some other activities that I love to do are:
           </p>
           <ul style={{fontSize: "18px"}}>
-           
-            
-              Playing Games <BsController />
-            
-              <br />
-            
-              
               Travelling <BsBackpack />
         
           </ul>
