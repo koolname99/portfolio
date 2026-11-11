@@ -6,7 +6,6 @@ import Toolstack from "./Toolstack";
 //import Footer from './../../Footer';
 import './../../App.css';
 import { BsBackpack } from "react-icons/bs";
-import { BsController } from "react-icons/bs";
 function About() {
     return (
       <Container fluid className="about-section">
